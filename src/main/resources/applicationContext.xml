@@ -24,10 +24,15 @@
         <property name="redirectHttp10Compatible" value="false" />
     </bean>
 
-    <fss:oauth>
+    <!-- <fss:oauth>
         <fss:oauthInfo endpoint="http://login.salesforce.com"
                        oauth-key="#{systemEnvironment['OAUTH_CLIENT_KEY']}"
                        oauth-secret="#{systemEnvironment['OAUTH_CLIENT_SECRET']}"/>
+    </fss:oauth> -->
+    <fss:oauth>
+        <fss:oauthInfo endpoint="http://login.salesforce.com"
+                       oauth-key="3MVG9ZL0ppGP5UrDr5JNRUW8R3G6fYXG1mO5xF_UmJuykwaPqwFkKGBW7nIGq5JiQifCUbtcz526JEHNC7nbz"
+                       oauth-secret="6450140744899612582"/>
     </fss:oauth>
     
     <security:http use-expressions="true">
